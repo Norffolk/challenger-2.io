@@ -26,8 +26,8 @@ crontab -e
 ```
 * * * * * ping -c5 localhost >> /path/to/example.txt
 ```
-``This is an example of command you can use.``
-``* * * * * means: the command will running every minute, you can change this period``
+``This is an example of command you can use. * * * * * means: the command will running every minute, you can change this period``
+
 **7.After exited the editor you need wait the time command (1min) and cat the file on the path you chose:**
 ```
 cat /path/to/example.txt
