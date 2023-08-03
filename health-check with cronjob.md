@@ -40,9 +40,9 @@ crontab -e (create or edit a new crontab.)
 ```
 **9.To create a new crontab without use the text-editor, you need to create the variable:**
 ```
-CRON_JOB="* * * * * ping -c5 localhost >> /path/to/example.txt"
+VARIABLE_NAME="* * * * * ping -c5 localhost >> /path/to/example.txt"
 ```
 **10.After this run this command with the variable:**
 ```
-( crontab -l ; echo "$CRON_JOB" ) | crontab -
+( crontab -l ; echo "$VARIABLE_NAME" ) | crontab -
 ```
