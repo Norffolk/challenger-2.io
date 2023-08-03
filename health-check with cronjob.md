@@ -1,7 +1,8 @@
 # How to create a simple Health-check system using cronjob
 
 **1.First, we need run a update and upgrade commands (good practices):**
-```sudo apt update && sudo apt upgrade -y
+```
+sudo apt update && sudo apt upgrade -y
 ```
 **2.After this, we can install the cronjob:**
 ```
