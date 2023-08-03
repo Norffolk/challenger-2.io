@@ -21,6 +21,7 @@ systemctl enable cron
 crontab -e
 ```
 ``Here need confirm what text-editor you can use in crontab, i put the number two because i like vim``
+
 **6.Put your command on crontab:**
 ```
 * * * * * ping -c5 localhost >> /path/to/example.txt
